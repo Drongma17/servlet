@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>libraryproject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+  <servlet-name>Home</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Home</servlet-name>
+  <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>StudentRegistration</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.StudentRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>StudentRegistration</servlet-name>
+  <url-pattern>/StudentRegistration</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+    <servlet>
+  <servlet-name>HelpLine</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.HelpLine</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>HelpLine</servlet-name>
+  <url-pattern>/HelpLine</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>StudentLogin</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.StudentLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>StudentLogin</servlet-name>
+  <url-pattern>/StudentLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>AddBooks</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.AddBooks</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AddBooks</servlet-name>
+  <url-pattern>/AddBooks</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>AddBookToTable</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.AddBookToTable</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AddBookToTable</servlet-name>
+  <url-pattern>/AddBookToTable</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>AllocatingBook</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.AllocatingBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AllocatingBook</servlet-name>
+  <url-pattern>/AllocatingBook</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>ViewStudent</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.ViewStudent</servlet-class>
+   </servlet>
+  <servlet-mapping>
+  <servlet-name>ViewStudent</servlet-name>
+  <url-pattern>/ViewStudent</url-pattern>
+  </servlet-mapping>
+  
+   
+  <servlet>
+  <servlet-name>ViewBooks</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.ViewBooks</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ViewBooks</servlet-name>
+  <url-pattern>/ViewBooks</url-pattern>
+  </servlet-mapping>
+  
+ 
+  
+   <servlet>
+  <servlet-name>Login</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Login</servlet-name>
+  <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>StudentView</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.StudentView</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>StudentView</servlet-name>
+  <url-pattern>/StudentView</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  <servlet-name>ReceiveBook</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.ReceiveBook</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ReceiveBook</servlet-name>
+  <url-pattern>/ReceiveBook</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>StudentBookInfo</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.StudentBookInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>StudentBookInfo</servlet-name>
+  <url-pattern>/StudentBookInfo</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+  <servlet-name>AboutMe</servlet-name>
+  <servlet-class>com.jspiders.libraryproject.AboutMe</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AboutMe</servlet-name>
+  <url-pattern>/AboutMe</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

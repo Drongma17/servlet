@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type ="text/css">
+
+
+.H{    
+	
+	height:60px;
+
+	
+	background-color: burlywood;
+	text-align: -webkit-center;
+	}
+		
+ a{text-decoration:none;
+		color:green;}	
+ a:hover{text-decoration:none;
+		color:black;}	
+.t{
+margin-top:30px;
+margin-left:300px;
+width:400px;
+
+}
+.f{
+margin-top:80px;
+}
+
+<!--		
+ul li a{text-decoration:none;
+		color:green;}	
+ul li a:hover{text-decoration:none;
+		color:black;} -->			
+<!--		
+body{background-image:G:\1.jpg.jpg;
+background-image-width:120px;
+background-image-height:120px;
+} -->
+
+ </style>
+ 
+ 
+ 
+	
+	
+	
+
+<title>
+</title>
+</head>
+<!--<body background="G:\1.jpg.jpg" >-->
+<body>
+
+<form class="f" action="http://localhost:8080/libraryproject/AddBookToTable" method="post">
+<h1> <font color="green" ><center>----Adding New Book------</center></font></h1>
+
+
+<table class="t">
+
+
+
+<tr class="H" ><td>BookID:
+</td>
+<td><input type="text" name="book_id" placeholder="Enter the Book id"  /></td></tr >
+
+<tr class="H" ><td>Book Name:
+</td>
+<td><input type="text" name="bookName" placeholder="Enter the Book Name"  /></td></tr >
+
+<tr class="H" ><td>Author:
+</td>
+<td><input type="text" name="author" placeholder="Enter the Author" /> </td></tr >
+
+
+<tr class="H" ><td>Year of Publication:
+</td>
+<td><input type="text" name="yop" placeholder="Enter the Year of Publication"  /></td></tr >
+
+
+<tr class="H" ><td>Book Availability:
+</td>
+<td><select name="availability">
+<option>Y</option>
+<option>N</option>
+
+</select></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr >
+<td></td>
+<td class="tr">
+<input type="submit" value="Submit" width="20px">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+</table>
+</from>
+
+</body>
+</html>
